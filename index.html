@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jose Omar Landa</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/84a2280dce.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="home">
+
+    <!-- ********NAVBAR**************** -->
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#portfolio">My Work</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+
+    <div class="heading">
+      Jose Landa
+      <p>Software Engineer</p>
+    </div>
+
+  </header>
+
+  <!-- **********CONTENT************ -->
+  <div class="content">
+
+    <div class="textbox" id="about">
+      <h2>About Me</h2>
+
+      <img src="images/profilepicture.jpg" alt="profile picure" class="profileimg">
+      <p style="color: #FF4C29; font-size: 1.5rem; font-weight: bold;">Hello! My name is Jose Landa.</p>
+      <p>I'm a self-taught software engineer who is currently in school for my Bachelor's Degree in Computer Science.
+        This is actually a transition in careers, as I've spent the past nine years working as a Registered Nurse in specialties ranging
+        from Intensive Care to the Emergeny Department. In my time as a nurse, I've learned skills that benefit me in the tech industry.
+        Quick critical thinking, the importance of working as a team, and customer service are just a few of the transferable skills that are essential
+        as a software engineer.
+      </p>
+    </div>
+
+
+    <div class="textbox" id="portfolio">
+      <h2>My Work</h2>
+      <p>I have experience creating websites using HTML, CSS, and Javascript. I also have experience writing programs in Java. Click the logo below to see my work on GitHub.</p>
+
+      <div class="backend">
+        <a href="https://github.com/omar-landa" target="_blank"><i class="fab fa-github logo"></i></a>
+      </div><br>
+
+      <div class="portfolio-flex-container">
+        <p>
+          Below is an example of a website I have created.
+        </p>
+
+        <div class="frontend">
+            <div class="card">
+              <a href="#"><img src="images/websitescreenshot.png" alt="Example image of a website I've created." style="width: 85%; padding-top: 10px;"></a>
+              <div class="card-container">
+                <p>Gina Kristin Art portfolio website</p>
+              </div>
+            </div>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="textbox" id="contact">
+      <h2>Let's Connect</h2>
+      <p>If you'd like to connect or work together, please reach out via Twitter or fill out the form below.</p>
+
+      <div class="">
+        <form class="form" action="https://formspree.io/f/mqknpnjy" method="POST">
+          <label for="name">Your Name: </label>
+          <input type="text" name="name" value="" placeholder="Enter your name..."><br><br>
+          <label for="email">Your Email: </label>
+          <input type="email" name="email" value="" placeholder="Enter your email..." required><br><br>
+          <label for="message">Enter Your Message Below:</label><br>
+          <textarea name="message" rows="8" cols="30">Your Message Here...</textarea><br><br>
+          <button type="submit" name="submit" style="display: block; margin: auto;">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- *******FOOTER******** -->
+  <footer class="footer">
+    <a href="https://twitter.com/omarlandadev" target="_blank"><i class="fab fa-twitter" id="twitterfooter"></i></a>
+    <a href="https://github.com/omar-landa" target="_blank"><i class="fab fa-github" id="githubfooter"></i></a>
+    <a href="https://www.linkedin.com/in/jose-landa-537939129/" target="_blank"><i class="fab fa-linkedin-in" id="linkedinfooter"></i></a>
+    <div class="footerp">
+      <i class="far fa-copyright"></i> Jose Landa 2022
+    </div>
+  </footer>
+
+</body>
+
+</html>

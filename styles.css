@@ -1,0 +1,196 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2C394B;
+  font-family: arial;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+p{
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+
+
+/* *****NAVBAR CSS******* */
+.navbar {
+  display: block;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #082032;
+  padding: 1%;
+}
+
+.navbar a{
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #F5F5F5;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color: #FF4C29;
+}
+
+/* *******Heading CSS******** */
+.heading {
+  text-align: center;
+  width: 100%;
+  padding-top: 15%;
+
+  font-size: 4rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #F5F5F5;
+}
+
+
+.heading p{
+  font-size: 1.5rem;
+  color: #000000;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  /* font-weight: bold; */
+  margin: 1% 43%;
+  background-color: white;
+  border-style: solid;
+  border-color: #FF4C29;
+  border-width: thin;
+  border-radius: 25px;
+  box-shadow: 10px 10px #FF4C29;
+  }
+
+.heading p:hover{
+  background: #FF4C29;
+  color: white;
+  box-shadow: 10px 10px white;
+  transition: all .2s linear;
+}
+
+/* *******CONTENT CSS******* */
+.content {
+  text-align: center;
+  padding: 5%;
+}
+
+.textbox {
+  margin: 10% 20%;
+  background-color: white;
+  border-style: solid;
+  border-color: #FF4C29;
+  border-width: thin;
+  border-radius: 25px;
+  box-shadow: 10px 10px #FF4C29;
+  padding: 1%;
+}
+
+.profileimg {
+  height: 15% ;
+  width: 15%;
+  border-radius: 50%
+}
+
+.frontend {
+  margin: 10% 10%;
+}
+
+
+/* *******IMAGE CARD*********** */
+
+.card {
+  margin: 10% 20%;
+  background-color: white;
+  border-style: solid;
+  border-color: #30475E;
+  border-width: thin;
+  border-radius: 25px;
+  box-shadow: 10px 10px #30475E;
+  padding: 1%;
+}
+
+.card:hover {
+  box-shadow: 10px 10px #FF4C29;
+  border-color: #FF4C29;
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+.card-container P{
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 3.5rem;
+  color: #FF4C29;
+}
+
+.form {
+  text-align: center;
+}
+
+/* *******FOOTER CSS******** */
+.footer {
+  display: block;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #30475E ;
+  padding: 0.5%;
+}
+
+.footer a{
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #FF4C29;
+}
+
+.footer a:hover{
+  color: #F5F5F5;
+}
+
+.footerp {
+  font-size: 0.75rem;
+  color: #FF4C29;
+  padding-top: 5px;
+}
+
+
+/* *********MEDIA QUERIES********* */
+@media screen and (max-width: 800px){
+  p {
+    font-size: 1rem;
+    line-height: normal;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .heading p{
+    font-size: 1rem;
+    margin: 1% 30%;
+  }
+  .card-container P{
+    font-size: .5rem;
+  }
+}
+
+@media screen and (max-width: 1500px){
+  .heading p{
+    margin: 1% 40%;
+    font-size: 1.35rem;
+  }
+  .card-container P{
+    font-size: .75rem;
+  }
+}
